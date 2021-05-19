@@ -7,7 +7,7 @@ const read         = require('./src/read')
 const create_index = require('./src/index')
 const find         = require('./src/find')
 const save         = require('./src/save')
-const output       = 'result.json'
+const output       = 'lookup.json'
 
 function main() {
     let args               = parse()
